@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<genres>
+	<genre type="male">
+		<name>Javier</name>
+		<level>16</level>
+	</genre>
+	<genre type="female">
+		<name>Gizela</name>
+		<level>10</level>
+	</genre>
+</genres>

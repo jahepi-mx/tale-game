@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tale>
+	<page chapter="2" pageNumber="2">
+		
+		<configuration>
+			<file name="1" reference="nieve.xml" />
+		</configuration>
+		
+		<text name="cuevatext1" x="10" y="30" width="300">%sig1% en la cueva donde habia ... </text>
+		
+		<inputtext name="cuevainput1" x="10" y="85" height="20" width="150" value="Oprimir" />
+		
+		<text name="cuevatext2" x="10" y="90" width="200" reference="cuevainput1">%cuevainput1% gigantes con muchos poderes ocultos...</text>
+		
+	</page>
+</tale>

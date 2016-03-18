@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tale>
+	<page chapter="1" pageNumber="1">
+		
+		<configuration>
+			<file name="1" reference="nieve.xml" />
+			<file name="2" reference="dragon.xml" />
+			<file name="3" reference="cueva.xml" />
+			<file name="4" reference="sotano.xml" />
+		</configuration>
+		
+		<text name="txt1" x="10" y="30" width="300" height="24">Mi nombre es %name%, y mi nivel es %level%</text>
+		
+		<inputtext name="txt2" x="10" y="85" height="40" width="150" value="Oprimir" />
+		
+		<text name="arma" x="10" y="90" width="200" reference="txt2">Y tengo %txt2%</text>
+		
+		<options name="opciones" x="10" y="230" reference="txt2" width="200" height="30">
+			<button name="admiraba" text="admiraba..." value="Admiraba los confines" eventValue="1" />
+			<button name="detestaba" text="detestaba..." value="Detestaba los confines" eventValue="2" />
+		</options>
+		
+		<inputtext name="txt3" x="10" y="150" height="20" width="150" value="Oprimir" reference="txt2" />
+		
+		<text name="entonces" x="10" y="120" width="200" reference="txt2">, entonces...</text>
+		
+		<text name="final" x="10" y="155" width="200" reference="txt3">Esto es el final %txt3%</text>
+		
+		
+		<text name="final2" x="10" y="255" width="300" reference="admiraba">%admiraba% del universo...</text>
+		<text name="final3" x="10" y="305" width="300" reference="admiraba">Celestial, ohhh siii...</text>
+		
+		<text name="final4" x="10" y="255" width="300" reference="detestaba">%detestaba% de los mares y ...</text>
+		
+		<singleButton x="10" y="340" height="20" width="150" name="sig1" text="Siguiente" value="La aventura continuo..." eventValue="2" changeView="1" reference="admiraba|detestaba|txt3" />
+		
+	</page>
+</tale>
